@@ -1,0 +1,89 @@
+body {
+    font-family: "Nunito", sans-serif;
+}
+.navbar.scrolled{
+    background-color: rgb(222,192,222);
+    transition: background 500ms;
+}
+.fixed{
+    background-color: none;
+}
+.bg-pink{
+    background-color: #f5d9d5;
+}
+
+.hover-effect{
+    color: white;
+}
+
+.hover-effect:hover{
+    color: rgb(255, 0, 0);
+}
+
+.red-color{
+    color: rgb(255, 0, 0);
+}
+
+#navbar1{
+    font-size: 1em;
+}
+
+#navbarbrand:hover{
+    color:rgb(255, 0, 0);
+}
+#handimgtext{
+    display: none;
+}
+
+.pink{
+    color: rgb(255, 155, 172);
+}
+
+.information{
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 1em ;
+    line-height: 2em;
+}
+.icon{
+    display: none;
+}
+.display-5{
+    font-size:1.8em;
+}
+
+
+@media(min-width:1000px){
+    #main1{
+        display: flex;
+        flex-direction: row;
+    }
+    #handimgtext{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-top:70px;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    h1{
+        font-size: 3em;
+    }
+    #handimg{
+        width: 50%;
+    }
+
+}
+
+@media(min-width:1200px){
+    h1{
+        font-size: 4em;
+    }
+}
